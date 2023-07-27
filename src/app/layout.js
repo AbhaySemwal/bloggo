@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className}`}>
       <ThemeProvider>
         <AuthProvider>
-          <div className='flex flex-col min-h-[100vh] justify-between w-9/12 mx-auto '>
+          <div className='font-sans flex flex-col min-h-[100vh] justify-between w-9/12 mx-auto '>
             <Navbar/>
             {children}
             <Footer/>
